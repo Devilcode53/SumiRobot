@@ -17,16 +17,16 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 12345   # integer value, dont use ""
-    API_HASH = "awew"
-    TOKEN = "wow"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1491497760  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "SAlTAM4"
-    SUPPORT_CHAT = 'StrawhatTeam'  #Your own group for support, do not add the @
-    UPDATES_CHANNEL = 'StrawhatUpdates' #Your own channel for Updates of bot, Do not add @
-    JOIN_LOGGER = -1001543354286  #Prints any new group the bot is added to, prints just the name and ID.
+    API_ID = 24727770   # integer value, dont use ""
+    API_HASH = "b29e54a12450d2bf91e23b5d90d5378e"
+    TOKEN = "7466401539:AAGv-PvjvE4FAs7yGKa_GOn0Vu-icGFEwrE"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 7526005252  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Japu7"
+    SUPPORT_CHAT = 'sumirobotsuppot'  #Your own group for support, do not add the @
+    UPDATES_CHANNEL = 'sumirobot_updates' #Your own channel for Updates of bot, Do not add @
+    JOIN_LOGGER = -1002286994976  #Prints any new group the bot is added to, prints just the name and ID.
     REM_BG_API_KEY = "dxsh728mZMDmj4ijSZCNPZig"
-    EVENT_LOGS = -1001543354286  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    EVENT_LOGS = -1002286994976  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = None
@@ -34,7 +34,7 @@ class Config(object):
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key -
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    BOT_ID = "2128359921"
+    BOT_ID = "7466401539"
     
     DRAGONS = get_user_list('elevated_users.json', 'sudos')
 
